@@ -1,0 +1,23 @@
+rules_version = '2';
+
+// Health Copilot — Firestore security rules.
+//
+// The only data the app keeps in Firestore is each account's profile document
+// (`users/{uid}`), which stores the account's locked role (patient/doctor) and
+// display name. Everything else (records, medicines, appointments, goals, chat)
+// stays in the browser.
+//
+// A signed-in account may read and write only its own document. Anonymous
+// access is denied.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+
+    // Nothing else is stored server-side.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
