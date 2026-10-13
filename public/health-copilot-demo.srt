@@ -1,0 +1,91 @@
+﻿1
+00:00:00,300 --> 00:00:12,438
+Health Copilot. Your health, organised — your questions, answered. This is a demo of the patient app and the separate practice portal for doctors.
+
+2
+00:00:12,888 --> 00:00:32,749
+Everything begins with a secure sign-in, backed by real Firebase authentication. Each account is locked to one role — patient or doctor. Notice the language picker in the corner: the whole app is available in English, Hindi, Telugu and Tamil, even before you sign in.
+
+3
+00:00:33,199 --> 00:00:44,482
+I'll sign in as the built-in sample patient, Alex Morgan. Sample accounts come pre-filled with fictional data, so you can explore everything instantly.
+
+4
+00:00:44,932 --> 00:00:53,389
+This is the patient dashboard — a calm overview of today's medicines, upcoming appointments, and the latest health trends.
+
+5
+00:00:53,839 --> 00:01:15,171
+The A.I. Health Assistant is the heart of the app. You can type, speak your question with your voice, or attach a photo. Here I've asked about a headache, and the assistant replies with plain-language, source-linked education. It never diagnoses, and in an emergency it escalates straight away.
+
+6
+00:01:15,621 --> 00:01:26,818
+Medical Records keep documents in one private library — searchable, filterable, and shared with the care team for review. Uploads store metadata only.
+
+7
+00:01:27,268 --> 00:01:34,576
+Prescriptions written by the doctor appear in the patient's own list, with a simple daily 'taken' toggle.
+
+8
+00:01:35,026 --> 00:01:43,939
+Appointments lay out upcoming visits and history on a clear timeline, and let patients apply to doctors in the practice directory.
+
+9
+00:01:44,389 --> 00:01:52,442
+Health Analytics turns readings into trends over time, with summary cards that compare this period with the last.
+
+10
+00:01:52,892 --> 00:01:58,331
+Wellness and Goals tracks personal targets and simple daily habits.
+
+11
+00:01:58,781 --> 00:02:06,819
+Under Settings you control appearance, notifications and privacy — and pick the language for the entire app.
+
+12
+00:02:07,269 --> 00:02:12,552
+Here is the patient dashboard in English, the default language.
+
+13
+00:02:13,002 --> 00:02:20,761
+Change the language, and every menu, label and heading updates instantly — here it is in Hindi.
+
+14
+00:02:21,211 --> 00:02:31,979
+And the very same screen in Telugu. English, Hindi, Telugu and Tamil are all built in, and your choice is remembered for that browser.
+
+15
+00:02:32,429 --> 00:02:41,726
+Help and Support answers common questions and opens a feedback form with a shared ratings board — available to both patients and doctors.
+
+16
+00:02:42,176 --> 00:02:51,549
+Now the other side of the product. The same secure sign-in — but choosing 'I am a doctor' opens the practice portal instead.
+
+17
+00:02:51,999 --> 00:03:00,952
+This is the clinician's Practice Overview — today's schedule, recent patient activity, and the numbers that matter most.
+
+18
+00:03:01,402 --> 00:03:09,915
+The language choice is app-wide, so the doctor's portal switches too — here is the same practice overview in Telugu.
+
+19
+00:03:10,365 --> 00:03:20,238
+Appointment requests act as the practice inbox. The doctor accepts or cancels, and the patient is notified inside the app.
+
+20
+00:03:20,688 --> 00:03:29,661
+The patient roster lists everyone in the practice with their conditions and latest visits. Open any patient for the full picture.
+
+21
+00:03:30,111 --> 00:03:37,979
+Doctors write prescriptions for a chosen patient, and they're delivered straight into that patient's own medicine list.
+
+22
+00:03:38,429 --> 00:03:47,502
+Shared reports arrive in the Patient reports inbox. Marking one as seen notifies the patient that their report was reviewed.
+
+23
+00:03:47,952 --> 00:04:08,778
+That's Health Copilot — a patient app and a doctor portal in one, in English, Hindi and Telugu. All data shown is fictional sample data, and the assistant gives educational information only. Try the live demo, and explore the full source on GitHub. Thanks for watching.
